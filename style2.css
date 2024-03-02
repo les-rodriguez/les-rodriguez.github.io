@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: beige;
+    background-image: url(books2.avif);
+}
+
+.top {
+    background-color: rgb(15, 74, 15);
+    border: 1px solid rgb(36, 58, 36);
+    color: white;
+    display: flex;
+}
+
+#home {
+    padding-left: 20px;
+}
+
+.menu {
+    color: white;
+    text-decoration-line: none;
+}
+
+.menu:hover {
+    color: yellow;
+}
+
+h3 {
+    padding-top: 5px;
+    margin-right: 50px;
+}
+
+#page {
+    margin-left: 1000px;
+}
+
+h1 {
+    display: flex;
+    text-decoration: underline;
+    font-size: 50px;
+    justify-content: center;
+    margin-bottom: 0;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    height: 520px;
+    justify-content: space-evenly;
+    padding-bottom: 15px;
+}
+
+.read {
+    width: 255px;
+}
+
+.alphabetical {
+    color: white;
+    background-color: rgb(15, 74, 15);
+    border: 2px solid rgb(36, 58, 36);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: -10px;
+}
+
+p {
+    color: white;
+    background-color: rgb(15, 74, 15);
+    border: 2px solid rgb(36, 58, 36);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-wrap: wrap;
+    height: 420px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+input {
+    background-color: rgb(15, 74, 15);
+    color: white;
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgb(15, 74, 15);
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
